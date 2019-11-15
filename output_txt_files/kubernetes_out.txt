@@ -1,3 +1,10 @@
+(.devops) dibaroy@slave-node:~/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "boston-houseprices-inference" already exists
+NAME                           READY   STATUS    RESTARTS   AGE
+boston-houseprices-inference   1/1     Running   1          42h
+Forwarding from 127.0.0.1:8086 -> 80
+Forwarding from [::1]:8086 -> 80
+Handling connection for 8086
 Port: 8086
 {
   "prediction": [
